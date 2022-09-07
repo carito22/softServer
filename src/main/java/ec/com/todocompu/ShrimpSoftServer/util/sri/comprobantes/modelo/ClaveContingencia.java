@@ -1,0 +1,44 @@
+package ec.com.todocompu.ShrimpSoftServer.util.sri.comprobantes.modelo;
+
+/**
+*
+* @author Ing. Carlos Ajila
+*/
+public class ClaveContingencia {
+	private Integer codigo;
+	private String clave;
+	private String usada;
+	private String codigoComprobante;
+
+	public Integer getCodigo() {
+		return this.codigo;
+	}
+
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+
+	public String getClave() {
+		return this.clave;
+	}
+
+	public void setClave(String clave) {
+		this.clave = clave;
+	}
+
+	public String getUsada() {
+		return this.usada;
+	}
+
+	public void setUsada(String usada) {
+		this.usada = usada;
+	}
+
+	public String getCodigoComprobante() {
+		return this.codigoComprobante;
+	}
+
+	public void setCodigoComprobante(String codigoComprobante) {
+		this.codigoComprobante = codigoComprobante;
+	}
+}
